@@ -4,7 +4,7 @@ A Ecommerce Website made with React.js , used Auth0 for authentication.
 
 
 ## Demo
-
+https://totalitycorp-frontend-challenge-ecom.netlify.app/
 
 ## Features
 
