@@ -3,7 +3,7 @@ import { Footer, Navbar } from "../components";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -12,7 +12,7 @@ import { useState } from "react";
 
 
 const Checkout = () => {
-
+  const navigate = useNavigate();
   const [credit, useCredit] = useState(false);
 
   const CreditCardChange =(event)=>{
@@ -26,8 +26,10 @@ const Checkout = () => {
   
 
 const finalcheckout= ()=>{
+  
   if(credit==true){
-    window.location.href = "http://localhost:3000/success";
+    // window.location.href = "https://totalitycorp-frontend-challenge-ecom.netlify.app/success";
+    navigate("/success");
   }
   else{
     document.getElementById("cc-number").focus();
@@ -205,6 +207,14 @@ const finalcheckout= ()=>{
                         <select className="form-select" id="state" required>
                           <option value="">Choose...</option>
                           <option>Punjab</option>
+                          <option>Uttar Pradesh</option>
+                          <option>Delhi</option>
+                          <option>Gurugram</option>
+                          <option>Banglore</option>
+                          <option>Pune</option>
+                          <option>Kolkata</option>
+                          <option>Madhya Pradesh</option>
+                          <option>gujraat</option>
                         </select>
                         <div className="invalid-feedback">
                           Please provide a valid state.
