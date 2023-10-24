@@ -8,8 +8,22 @@ https://totalitycorp-frontend-challenge-ecom.netlify.app/
 
 ## Features
 
-- Easy to integrate with Backend
 - Fully Responsive
+  
+          -----Product Listing: -----
+- There are variety of products with images, names, prices, and "Add to Cart" buttons. Implemented filters to allow users to sort products by category.
+  
+         -----Shopping Cart: --------
+- Implemented a cart section to display the added products, quantities, and total cost. It Allows users to increase, decrease, or remove items from the cart. 
+  it can Display real-time updates of the cart total and item count.
+
+          ------Checkout: ----------
+- Implemented a checkout process that calculates the total cost of items in the cart. It Allows users to enter shipping information and payment details.
+
+          ------User Authentication:-------
+- It Provides user registration and login functionalities. 
+- It can Display the user's name/mail and avatar when logged in.
+
 
 
 
