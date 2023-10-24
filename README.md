@@ -20,7 +20,7 @@ https://totalitycorp-frontend-challenge-ecom.netlify.app/
 Clone the project
 
 ```bash
-  git clone 
+  git clone https://github.com/abhishek14aug/totalitycorp-frontend-challenge.git
 ```
 
 Go to the project directory
